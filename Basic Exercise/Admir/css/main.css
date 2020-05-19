@@ -16,7 +16,11 @@ a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
-  color: white; }
+  color: white;
+  font-size: 20px; }
+
+a:hover {
+  font-weight: bold; }
 
 .main {
   background-image: url(../img/Benz.jpeg);
