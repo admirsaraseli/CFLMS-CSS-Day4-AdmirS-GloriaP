@@ -1,0 +1,83 @@
+$font-stack: Helvetica, sans-serif
+$primary-color: #F5F5DC
+$title-color: #876a3e
+
+
+body 
+	margin: 0
+
+#wrapping
+	width: 90%
+	margin: 1% auto
+	border: 1px solid $title-color
+
+	
+header
+	display: flex
+	flex-direction: row
+	width: 100%
+	background-color: $primary-color
+
+
+	img
+		max-width: 5%
+
+
+
+
+
+
+	nav 
+		display: flex
+		width: 100%
+		justify-content: space-between
+		flex-grow: 1
+		ul
+			display: flex
+			list-style: none
+			width: 100%
+			margin: 0
+			align-items: center
+			
+			
+			
+			li
+				width: 50%
+				height: 100%
+				display: flex
+				align-items: center
+				justify-content: row
+				
+				
+				a
+					display: flex
+					width: 70%
+					height: 70%
+					align-items: center
+					justify-content: center
+					border: 1px solid $title-color
+					text-decoration: none
+					color: $title-color
+					font-weight: bold
+
+				a:hover
+					color: $primary-color
+					background-color: $title-color
+
+				
+#heroimg
+	max-width: 100%
+
+h1
+	display: flex
+	margin: 0
+	width: 100%
+	justify-content: center
+	color: $title-color
+	font-size: 500%
+	background-color: $primary-color
+	
+h2
+	text-align: center
+p
+	text-align: center
