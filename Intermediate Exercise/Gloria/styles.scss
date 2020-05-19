@@ -24,19 +24,19 @@ h1 {
 	margin: 1%;
 	border: 1px solid black;
 	align-items: center;
-	
-	
-	
-
-		
+			
 
 	img {
-			max-width: 100%;
+		max-width: 100%;
 	}
 }
 
 
 @media  screen and (max-width: 480px) {
+	body {
+		font-size: 50%;
+	}
+
 	#wrapping {
 		width: 100%;
 		
@@ -48,6 +48,10 @@ h1 {
 	
 }
 @media  screen and (min-width: 481px) and (max-width: 1200px) {
+	body {
+		font-size: 70%;
+	}
+
 	#wrapping {
 		width: 100%;
 		

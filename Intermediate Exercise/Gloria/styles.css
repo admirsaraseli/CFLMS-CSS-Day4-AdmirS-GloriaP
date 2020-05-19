@@ -19,12 +19,18 @@ h1 {
     max-width: 100%; }
 
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 50%; }
+
   #wrapping {
     width: 100%; }
 
   #imgcontainer div {
     width: 80%; } }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
+  body {
+    font-size: 70%; }
+
   #wrapping {
     width: 100%; }
 
